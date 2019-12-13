@@ -1,15 +1,8 @@
 // @ts-nocheck
 import React, { useState } from "react";
-import styled from 'styled-components';
-import { string } from "prop-types";
-
 
 export const MapEurope = () =>
 {
-  
-  
-  
-  
    return (
   <svg
     width="100%"

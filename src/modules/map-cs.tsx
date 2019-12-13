@@ -22,7 +22,7 @@ export const MapCeskoKrajeFull = props => (
           /**
            * ".map-cesko-kraje-full_svg__str0,.map-cesko-kraje-full_svg__str1{stroke:#007cc3;stroke-width:6.25062;stroke-linejoin:bevel}.map-cesko-kraje-full_svg__str0{stroke:#4d485b;stroke-width:8.33416}.map-cesko-kraje-full_svg__fil1{fill:none}"
            */
-          "*{fill:silver}.map-cesko-kraje-full_svg__str0,.map-cesko-kraje-full_svg__str1{stroke:white;stroke-width:6.25062;stroke-linejoin:bevel}.map-cesko-kraje-full_svg__str0{stroke:white;stroke-width:8.33416}.map-cesko-kraje-full_svg__fil1{fill:none}"
+          ".map-cesko-kraje-full_svg__str0,.map-cesko-kraje-full_svg__str1{stroke:white;stroke-width:6.25062;stroke-linejoin:bevel}.map-cesko-kraje-full_svg__str0{stroke:white;stroke-width:8.33416}.map-cesko-kraje-full_svg__fil1{fill:none}"
         }
       </style>
     </defs>
