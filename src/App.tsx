@@ -1,25 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {} from 'react';
 import './App.css';
+import styled from 'styled-components'
 
-const App: React.FC = () => {
+import {MapEurope} from './modules/map-europe';
+import {MapCeskoKrajeFull} from './modules/map-cs';
+
+import { ReactComponent as Logo } from './logo.svg';
+
+
+const Section = styled.section`
+`;
+
+function App() {
+ const isCzCountry = window.location.hash === '#/countries/cz';
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Section>
+      {!isCzCountry && <MapEurope />}
+      {isCzCountry && <MapCeskoKrajeFull />}
+    </Section>
   );
 }
 
