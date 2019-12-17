@@ -1,0 +1,80 @@
+[
+  {
+    "type": "city", 
+    "name": "Praha", 
+    "gps": [50.0874654, 14.4212535], 
+    "services": []
+  },
+  {
+    "type": "city", 
+    "name": "Brno", 
+    "gps": [49.1922442, 16.611338055555557], 
+    "services": []
+  },
+  {
+    "type": "city", 
+    "name": "Jihlava", 
+    "gps": [49.396064,15.5903065], 
+    "services": []
+  },
+  {
+    "type": "city", 
+    "name": "České Budějovice", 
+    "gps": [48.9747,14.4743], 
+    "services": []
+  },
+  {
+    "type": "city", 
+    "name": "Hradec Králové", 
+    "gps": [50.2095,15.8327], 
+    "services": []
+  },
+  {
+    "type": "city", 
+    "name": "Karlovy Vary", 
+    "gps": [50.2305,12.8711], 
+    "services": []
+  },
+  {
+    "type": "city", 
+    "name": "Liberec", 
+    "gps": [50.7702648,15.0583947], 
+    "services": []
+  },
+  {
+    "type": "city", 
+    "name": "Olomouc", 
+    "gps": [49.5940567,17.251143], 
+    "services": []
+  },
+  {
+    "type": "city", 
+    "name": "Ostrava", 
+    "gps": [49.8349139,18.2820084], 
+    "services": []
+  },
+  {
+    "type": "city", 
+    "name": "Pardubice", 
+    "gps": [50.0385812,15.7791356], 
+    "services": []
+  },
+  {
+    "type": "city", 
+    "name": "Plzeň", 
+    "gps": [49.7477415,13.3775249], 
+    "services": []
+  },
+  {
+    "type": "city", 
+    "name": "Ústí nad Labem", 
+    "gps": [50.6603327,14.0381357], 
+    "services": []
+  },
+  {
+    "type": "city", 
+    "name": "Zlín", 
+    "gps": [49.226766,17.6667415], 
+    "services": []
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "type": "city", 
+    "name": "X", 
+    "gps": [400, 450], 
+    "services": []
+  },
+  {
+    "type": "city", 
+    "name": "Praha", 
+    "gps": [50.0874654, 14.4212535], 
+    "services": []
+  },
+  {
+    "type": "city", 
+    "name": "Brno", 
+    "gps": [49.1922442, 16.611338055555557], 
+    "services": []
+  },
+  {
+    "type": "city", 
+    "name": "Y", 
+    "gps": [1100, 990], 
+    "services": []
+  }
+]

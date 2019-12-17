@@ -1,20 +1,23 @@
 // @ts-nocheck
 import React from "react";
+import { LocationPoint } from './location-point';
 
-export const MapCeskoKrajeFull = props => (
-  <svg
-    xmlSpace="preserve"
-    width="auto"
-    length="auto"
-    viewBox="0 0 3508 2480.4"
-    id="map-cesko-kraje-full_svg__svg1797"
-    shapeRendering="geometricPrecision"
-    textRendering="geometricPrecision"
-    imageRendering="optimizeQuality"
-    fillRule="evenodd"
-    clipRule="evenodd"
-    {...props}
-  >
+export function MapCeskoKrajeFull() {
+
+  return (
+    <svg
+      xmlSpace="preserve"
+      width="auto"
+      length="auto"
+      viewBox="-500 0 4500 2500"
+      id="map-cesko-kraje-full_svg__svg1797"
+      shapeRendering="geometricPrecision"
+      textRendering="geometricPrecision"
+      imageRendering="optimizeQuality"
+      fillRule="evenodd"
+      clipRule="evenodd"
+    
+    >
 
     <defs id="map-cesko-kraje-full_svg__defs1799">
       <style type="text/css" id="style1801">
@@ -4826,5 +4829,7 @@ export const MapCeskoKrajeFull = props => (
         />
       </g>
     </g>
+      <LocationPoint />
   </svg>
-);
+  );
+}
