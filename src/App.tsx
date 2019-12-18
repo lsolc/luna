@@ -1,11 +1,14 @@
 import React, {} from 'react';
-import './App.css';
 import styled from 'styled-components'
-import Popup from "reactjs-popup";
-
 import {MapEurope} from './modules/map-europe';
 import {MapCeskoKrajeFull} from './modules/map-cs';
-import { PopupRightCenter } from './modules/popup-right-center';
+
+import { Button, Nav, Navbar, Form, FormControl } from 'react-bootstrap';
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+
 
 import { City } from './modules/city';
 
@@ -17,24 +20,28 @@ const Section = styled.section`
 background-color: lightslategrey;
 `;
 
-
-const PopupExample = () => (
-  <Popup trigger={<button> Trigger</button>} position="right center">
-    <div>Popup content here !!</div>
-  </Popup>
-);
-
 function App() {
  const isCzCountry = window.location.hash === '#/countries/cz';
+
   return (
     <div>
-      <PopupRightCenter />
-       <Section>
+      <Navbar bg="dark" variant="dark">
+        <Navbar.Brand href="/">Navbar</Navbar.Brand>
+        <Nav className="mr-auto">
+          <Nav.Link href="#home">Home</Nav.Link>
+          <Nav.Link href="#features">Features</Nav.Link>
+          <Nav.Link href="#pricing">Pricing</Nav.Link>
+        </Nav>
+        <Form inline>
+          <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+          <Button variant="outline-info">Search</Button>
+        </Form>
+      </Navbar>
+      <Section>
       {!isCzCountry && <MapEurope />}
       {isCzCountry && <MapCeskoKrajeFull />}
-    </Section>
+      </Section>
     </div>
-   
   );
 }
 

@@ -6,9 +6,21 @@
     "services": []
   },
   {
+    "type": "airport", 
+    "name": "Praha", 
+    "gps": [50.0874654, 14.5212535], 
+    "services": []
+  },
+  {
     "type": "city", 
     "name": "Brno", 
     "gps": [49.1922442, 16.611338055555557], 
+    "services": []
+  },
+  {
+    "type": "airport", 
+    "name": "Brno", 
+    "gps": [49.1922442, 16.711338055555557],
     "services": []
   },
   {
@@ -33,6 +45,12 @@
     "type": "city", 
     "name": "Karlovy Vary", 
     "gps": [50.2305,12.8711], 
+    "services": []
+  },
+  {
+    "type": "airport", 
+    "name": "Karlovy Vary", 
+    "gps": [50.2305,12.9711], 
     "services": []
   },
   {
