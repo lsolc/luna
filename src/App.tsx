@@ -8,14 +8,6 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-
-
-import { City } from './modules/city';
-
-
-import { ReactComponent as Logo } from './logo.svg';
-
-
 const Section = styled.section`
 background-color: lightslategrey;
 `;
@@ -28,7 +20,7 @@ function App() {
       <Navbar bg="dark" variant="dark">
         <Navbar.Brand href="/">Navbar</Navbar.Brand>
         <Nav className="mr-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
+          <Nav.Link href="/">Home</Nav.Link>
           <Nav.Link href="#features">Features</Nav.Link>
           <Nav.Link href="#pricing">Pricing</Nav.Link>
         </Nav>

@@ -26,6 +26,7 @@ export const MapEurope = () =>
     <path fill="none" d="M-340.658 162.747h12386.153v7934.971H-340.658z" />
 
     <path 
+      cursor="pointer"
       onClick={() => {
         window.location.href='#/countries/cz';
         window.location.reload(true);
